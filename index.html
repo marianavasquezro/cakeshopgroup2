@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marissa Corleto and Mariana Vasquez">
+    <meta name="description" content="Cake Shop">
+    <title>Cake Shop</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Quicksand:wght@300;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid flex-column">
+            <a class="navbar-brand" href="#" style="font-family: 'Mrs Saint Delafield', cursive; color: yellow; font-size: 3rem;">Cake Shop</a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cakes">Cakes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="bg-dark text-white d-flex align-items-center" style="background-image: url('images/header-bg.jpg'); background-size: cover; background-position: center; height: 95vh;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="header-title">Welcome to our Cake Shop</h1>
+                    <p class="header-subtitle">Your one-stop shop for all things cake</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 text-center bg-black text-white">
+        <div class="container">
+            <h2>About Us</h2>
+            <p class="lead">We are dedicated to making the best cakes in town. Our cakes are made with the freshest ingredients and crafted with love.</p>
+            <img src="images/about.jpg" class="img-fluid rounded" alt="About Us">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-black py-5 text-center text-white">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white mb-4">
+                        <img src="images/service1.jpg" class="card-img-top" alt="Service 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Custom Cakes</h5>
+                            <p class="card-text">We make custom cakes for all occasions, tailored to your specifications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white mb-4">
+                        <img src="images/service2.jpg" class="card-img-top" alt="Service 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Wedding Cakes</h5>
+                            <p class="card-text">Make your special day unforgettable with our beautiful wedding cakes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white mb-4">
+                        <img src="images/service3.jpg" class="card-img-top" alt="Service 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Birthday Cakes</h5>
+                            <p class="card-text">Celebrate your birthday with one of our delicious and beautifully decorated cakes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Cakes Section -->
+    <section id="cakes" class="py-5 text-center bg-black text-white">
+        <div class="container">
+            <h2>Our Cakes</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white mb-4">
+                        <img src="images/cake1.jpg" class="card-img-top" alt="Cake 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Chocolate Delight</h5>
+                            <p class="card-text">A rich and decadent chocolate cake for the chocolate lovers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white mb-4">
+                        <img src="images/cake2.jpg" class="card-img-top" alt="Cake 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Vanilla Dream</h5>
+                            <p class="card-text">A light and fluffy vanilla cake that melts in your mouth.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white mb-4">
+                        <img src="images/cake3.jpg" class="card-img-top" alt="Cake 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Berry Bliss</h5>
+                            <p class="card-text">A delicious berry-flavored cake topped with fresh berries.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-black py-5 text-center text-white">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white mb-4">
+                        <div class="card-body">
+                            <p class="card-text">"The best cakes I've ever had! Highly recommend this Cake Shop."</p>
+                            <p class="card-text"><strong>- Customer 1</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white mb-4">
+                        <div class="card-body">
+                            <p class="card-text">"Amazing service and delicious cakes. I'll definitely be back."</p>
+                            <p class="card-text"><strong>- Customer 2</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white mb-4">
+                        <div class="card-body">
+                            <p class="card-text">"This Cake Shop made my wedding day special with a beautiful cake."</p>
+                            <p class="card-text"><strong>- Customer 3</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 text-center bg-black text-white">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p class="lead">We'd love to hear from you! Fill out the form below or give us a call.</p>
+            <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control bg-dark text-white" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control bg-dark text-white" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control bg-dark text-white" id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Cake Shop. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
